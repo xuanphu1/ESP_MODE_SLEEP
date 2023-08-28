@@ -4,11 +4,11 @@
 
 void app_main(void)
 {       
-        deep_sleep_register_rtc_timer_wakeup(200000);
+        register_timer_wakeup(10000000);
         while (1)
         {
                 // light_sleep();
-                // deep_sleep();
+                deep_sleep();
                 // vTaskDelay(1000/portTICK_RATE_MS);
         }
         

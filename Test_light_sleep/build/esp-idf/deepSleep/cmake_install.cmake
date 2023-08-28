@@ -1,8 +1,8 @@
-# Install script for directory: C:/Espressif/frameworks/esp/Test_light_sleep/component/deepSleep
+# Install script for directory: C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/component/deepSleep
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TEST_LIGHT_SLEEP")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/test_light_sleep")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

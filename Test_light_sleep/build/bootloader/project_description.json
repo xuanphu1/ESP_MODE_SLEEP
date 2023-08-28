@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "C:/Espressif/frameworks/esp-idf-v4.4.5/components/bootloader/subproject",
-    "build_dir":          "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader",
-    "config_file":        "C:/Espressif/frameworks/esp/Test_light_sleep/sdkconfig",
+    "build_dir":          "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader",
+    "config_file":        "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",

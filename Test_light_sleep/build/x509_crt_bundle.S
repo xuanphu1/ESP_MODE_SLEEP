@@ -1,4 +1,4 @@
-/* * Data converted from C:/Espressif/frameworks/esp/Test_light_sleep/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

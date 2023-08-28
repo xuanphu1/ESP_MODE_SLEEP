@@ -9,8 +9,23 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-
+#include <stdio.h>
+#include <time.h>
+#include <sys/time.h>
 #include "sdkconfig.h"
+#include "soc/soc_caps.h"
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "esp_sleep.h"
+#include "esp_log.h"
+#include "driver/rtc_io.h"
+// #include "nvs_flash.h"
+// #include "nvs.h"
+#include "driver/gpio.h"
+#include "driver/rtc_io.h"
+#include <inttypes.h>
+
+
 
 #if CONFIG_EXAMPLE_GPIO_WAKEUP
 void deep_sleep_register_gpio_wakeup(void);

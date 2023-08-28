@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TEST_LIGHT_SLEEP")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/test_light_sleep")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Espressif/frameworks/esp/Test_light_sleep/build/esp-idf/soc/esp32/cmake_install.cmake")
+  include("C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/esp-idf/soc/esp32/cmake_install.cmake")
 
 endif()
 

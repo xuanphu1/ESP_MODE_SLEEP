@@ -5,15 +5,15 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "C:/Espressif/frameworks/esp-idf-v4.4.5/components/bootloader/subproject"
-  "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader"
-  "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader-prefix"
-  "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader-prefix/tmp"
-  "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader-prefix/src"
-  "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader"
+  "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader-prefix"
+  "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader-prefix/tmp"
+  "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader-prefix/src/bootloader-stamp"
+  "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader-prefix/src"
+  "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Espressif/frameworks/esp/Test_light_sleep/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "C:/Espressif/frameworks/esp/ESP_MODE_SLEEP/Test_light_sleep/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()

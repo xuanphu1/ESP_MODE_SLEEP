@@ -9,7 +9,8 @@
                 "C:/Espressif/frameworks/esp-idf-v4.4.5/components",
                 "C:/Espressif/frameworks/esp-idf-v4.4.5/components/esp_system/include",
                 "C:/Espressif/frameworks/esp-idf-v4.4.5/components/driver/**",
-                "${workspaceFolder}/component/light_sleep/main"
+                "${workspaceFolder}/component/light_sleep/main",
+                "C:/Espressif/frameworks/esp-idf-v4.4.5/components/touch_element/include"
             ],
             "defines": [
                 "_DEBUG",

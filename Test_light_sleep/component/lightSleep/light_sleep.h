@@ -4,6 +4,22 @@
  * SPDX-License-Identifier: Unlicense OR CC0-1.0
  */
 #include "esp_err.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+#include <sys/time.h>
+#include "freertos/FreeRTOS.h"
+#include "freertos/task.h"
+#include "driver/uart.h"
+#include "esp_log.h"
+#include "esp_timer.h"
+#include "esp_check.h"
+#include "esp_sleep.h"
+#include "touch_element/touch_button.h"
+#include "soc/uart_pins.h"
+#include "driver/gpio.h"
+#include "sdkconfig.h"
 
 
 #pragma once
