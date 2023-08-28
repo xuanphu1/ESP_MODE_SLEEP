@@ -1,0 +1,26 @@
+{
+    "files.associations": {
+        "esp_sleep.h": "c",
+        "esp_err.h": "c",
+        "light_sleep_new.h": "c",
+        "esp_timer.h": "c",
+        "uart.h": "c",
+        "esp_log.h": "c",
+        "sdkconfig.h": "c",
+        "stddef.h": "c",
+        "esp_rom_sys.h": "c",
+        "*.tcc": "c",
+        "format": "c",
+        "touch_button.h": "c",
+        "touch_element.h": "c",
+        "esp_system.h": "c",
+        "gpio.h": "c",
+        "winapifamily.h": "c",
+        "stdio.h": "c",
+        "light_sleep_example.h": "c",
+        "system_error": "c",
+        "chrono": "c",
+        "functional": "c",
+        "light_sleep.h": "c"
+    }
+}
